@@ -1,0 +1,89 @@
+.form-container {
+  background-color: #fff;
+  border-radius: 20px;
+  /* ทำให้มุมมน */
+  padding: 40px;
+  /* เพิ่มช่องว่างภายในเพื่อให้ฟอร์มดูใหญ่ขึ้น */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* เพิ่มเงา */
+  border: 1px solid #ddd;
+  /* เพิ่มเส้นขอบ */
+  width: 100%;
+  /* ให้ขนาดเต็มตามความกว้างของ container */
+  max-width: 1000px;
+  /* กำหนดขนาดสูงสุด */
+}
+
+
+
+
+
+/* กรอบที่จะแสดงรายการ */
+.list-container {
+  max-height: 300px;
+  /* จำกัดความสูงให้แสดงได้ประมาณ 3 รายการ */
+  overflow-y: auto;
+  /* แสดง scrollbar เมื่อเนื้อหามากเกิน */
+  padding-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+/* กรอบรายการ */
+.form-container {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* ขนาดและการจัดตำแหน่งของชื่อรายการ */
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* รายละเอียดของรายการ */
+.item-detail {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* การจัดตำแหน่งวันที่ */
+.item-date {
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* ปรับขนาดของปุ่ม */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+button.me-2 {
+  margin-right: 10px;
+}
+
+/* เมื่อเนื้อหามากเกินและแถบเลื่อนขึ้นมา */
+.list-container::-webkit-scrollbar {
+  width: 8px;
+  /* ความกว้างของ scrollbar */
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  background: #888;
+  /* สีของแถบเลื่อน */
+  border-radius: 10px;
+}
+
+.list-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* สีของแถบเลื่อนเมื่อ hover */
+}
