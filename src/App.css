@@ -87,3 +87,8 @@ button.me-2 {
   background: #555;
   /* สีของแถบเลื่อนเมื่อ hover */
 }
+
+.item-detail {
+  white-space: pre-line;
+  /* ทำให้สามารถแสดง \n ได้ */
+}
